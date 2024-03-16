@@ -18,7 +18,6 @@ h1 {
   padding: 20px 0;
   color: #fff;
   margin-bottom: 20px;
-  border-radius: 20px;
   box-shadow: 5px 5px 15px #b3b3b3,
               -5px -5px 15px #ffffff;
 }
@@ -177,7 +176,6 @@ footer {
   color: #fff;
   background: linear-gradient(120deg, #FF6B6B, #4361ee);
   transition: background 0.3s ease;
-  border-radius: 15px;
   box-shadow: 5px 5px 15px #b3b3b3,
               -5px -5px 15px #ffffff;
 }
