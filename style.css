@@ -13,70 +13,25 @@ body {
 
 h1 {
   background: linear-gradient(120deg, #FF6B6B, #4361ee);
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
   padding: 20px 0;
   color: #fff;
   margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #b3b3b3,
+              -5px -5px 15px #ffffff;
 }
 
 .weather-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 30px;
-}
-
-.weather-input input {
-  height: 40px;
-  font-size: 1rem;
-  padding: 0 15px;
-  margin: 10px 0 15px 0;
-  border-radius: 20px;
-  border: 1px solid transparent;
-  transition: border-color 0.3s ease;
-}
-
-.weather-input input:focus {
-  border-color: #FF6B6B;
-}
-
-.weather-input .separator {
-  text-align: center;
-  color: #6c757d;
-  font-size: 1rem;
-  margin: 20px 0;
-}
-
-User
-
-       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  background: #f5f5f5; /* Updated background color */
-}
-
-h1 {
-  background: linear-gradient(120deg, #FF6B6B, #4361ee); /* Gradient background */
-  font-size: 2rem; /* Increased font size */
-  text-align: center;
-  padding: 20px 0; /* Adjusted padding */
-  color: #fff;
-  margin-bottom: 20px; /* Added margin */
-}
-
-.weather-container {
-  display: flex;
-  flex-direction: column; /* Updated to column for better mobile responsiveness */
   gap: 35px;
   padding: 30px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 5px 5px 15px #b3b3b3,
+              -5px -5px 15px #ffffff;
 }
 
 .weather-input {
@@ -87,16 +42,19 @@ h1 {
   height: 46px;
   width: 100%;
   outline: none;
-  font-size: 1.2rem; /* Increased font size */
+  font-size: 1.2rem;
   padding: 0 17px;
   margin: 10px 0 20px 0;
-  border-radius: 25px; /* Rounded border */
+  border-radius: 25px;
   border: 1px solid transparent;
-  transition: border-color 0.3s ease; /* Smooth transition */
+  transition: border-color 0.3s ease;
+  background-color: #f5f5f5;
+  box-shadow: inset 5px 5px 15px #b3b3b3,
+              inset -5px -5px 15px #ffffff;
 }
 
 .weather-input input:focus {
-  border-color: #FF6B6B; /* Updated focus border color */
+  border-color: #FF6B6B;
 }
 
 .weather-input .separator {
@@ -108,19 +66,21 @@ h1 {
 
 .weather-input button {
   width: 100%;
-  padding: 12px 0; /* Adjusted padding */
+  padding: 12px 0;
   cursor: pointer;
   outline: none;
   border: none;
-  border-radius: 25px; /* Rounded border */
-  font-size: 1.1rem; /* Increased font size */
+  border-radius: 25px;
+  font-size: 1.1rem;
   color: #fff;
-  background: linear-gradient(120deg, #FF6B6B, #4361ee); /* Gradient background */
-  transition: background 0.3s ease; /* Smooth transition */
+  background: linear-gradient(120deg, #FF6B6B, #4361ee);
+  transition: background 0.3s ease;
+  box-shadow: 5px 5px 15px #b3b3b3,
+              -5px -5px 15px #ffffff;
 }
 
 .weather-input button:hover {
-  background: linear-gradient(120deg, #FF4D4D, #3949ab); /* Updated hover gradient */
+  background: linear-gradient(120deg, #FF4D4D, #3949ab);
 }
 
 .weather-input .location-btn {
@@ -137,12 +97,14 @@ h1 {
 
 .weather-details .current-weather {
   color: #fff;
-  background: linear-gradient(120deg, #FF6B6B, #4361ee);
   border-radius: 15px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f5f5f5;
+  box-shadow: 5px 5px 15px #b3b3b3,
+              -5px -5px 15px #ffffff;
 }
 
 .current-weather h2 {
@@ -186,7 +148,8 @@ h1 {
   width: calc(100% / 2 - 10px);
   background: #6c757d;
   border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 15px #b3b3b3,
+              -5px -5px 15px #ffffff;
 }
 
 .weather-cards .card h3 {
@@ -203,4 +166,14 @@ h1 {
   .weather-cards .card {
     width: 100%;
   }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px #b3b3b3,
+              -5px -5px 15px #ffffff;
 }
