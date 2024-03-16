@@ -149,4 +149,7 @@ h1 {
 
 @media (max-width: 1200px) {
   .forecast-days .card {
-    width: calc(100% / 2 - 1
+    width: calc(100% / 2 - 1)
+ 
+ 
+ }}
